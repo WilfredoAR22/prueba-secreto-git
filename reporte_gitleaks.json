@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 3,
+  "EndLine": 3,
+  "StartColumn": 2,
+  "EndColumn": 35,
+  "Match": "API_KEY = \"sk_test_UMG2026_123456\"",
+  "Secret": "sk_test_UMG2026_123456",
+  "File": "secreto_inseguro.py",
+  "SymlinkFile": "",
+  "Commit": "667be0f4819428306c3a889b575bee6dfcc6ab59",
+  "Link": "https://github.com/WilfredoAR22/prueba-secreto-git/blob/667be0f4819428306c3a889b575bee6dfcc6ab59/secreto_inseguro.py#L3",
+  "Entropy": 3.7544417,
+  "Author": "WilfredoAR22",
+  "Email": "wacr1@miumg.edu.gt",
+  "Date": "2026-11-05T16:02:16Z",
+  "Message": "Se agregan archivos de tarea no. 3",
+  "Tags": [],
+  "Fingerprint": "667be0f4819428306c3a889b575bee6dfcc6ab59:secreto_inseguro.py:generic-api-key:3"
+ }
+]
