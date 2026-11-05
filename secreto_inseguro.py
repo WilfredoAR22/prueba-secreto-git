@@ -1,9 +1,9 @@
-# Ejemplo de almacenamiento inseguro
 
-API_KEY = "sk_test_UMG2026_123456"
+# Correccion de seguridad
+# Se elimina la clave de API del codigo fuente
 
-print("PRUEBA DE SEGURIDAD - SECRETO INSEGURO")
-print("------------------------------------")
+print("PRUEBA DE SEGURIDAD - CORRECCION")
+print("--------------------------------")
 
-print("Clave de API:", API_KEY)
-print("Estado: Secreto almacenado directamente en el codigo")
+print("La clave de API fue eliminada del codigo")
+print("Estado: Archivo corregido")
